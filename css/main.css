@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Salsa|Sail);
+font-family: 'Sail', cursive;
+body{
+	background-color: #151515;
+	font-family: 'Myriad Pro',Helvetica,Arial;
+	font-size: 14px;
+	margin:0;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Salsa'
+	font-weight: 700;
+}
+.content{
+	width: 960;
+	margin: 0px auto;
+}
+#front{
+	z-index: 1;
+}
+/*---------------------------------NAVIGATION--------------------------*/
+.navigation{
+	width: 978px;
+	height:60px;
+	background-color: #a3d178;
+    position: relative;
+    margin: 0px auto;
+    
+    
+}
+
+.navigation ul{
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 60px;
+
+}
+.navigation li {
+	display: inline-block;
+	
+	width: 125px;
+	height: 60px;
+	box-sizing:border-box;
+}
+.navigation img{
+	display: inline-block;
+	z-index: 1;
+	float: left;
+
+}
+.navigation a{
+	position: absolute;
+	text-align: center;
+	
+	padding:20px;
+	box-sizing:border-box;
+	width: 125px;
+	height: 60px;
+	font-size: 20px;
+    text-decoration: none;
+}
