@@ -7,19 +7,20 @@
 	font-family: 'deli';
 	src: url(css/deli.ttf);
 }
-font-family: 'aladin',Helvetica,Arial;
-body{
+
+body {
 	background-color: #151515;
 	font-family: 'Myriad Pro',Helvetica,Arial;
 	font-size: 14px;
 	margin:0;
+	width: 1350px;
 }
 h1,h2,h3,h4,h5{
 	font-family: 'deli'
 	font-weight: 700;
 }
 .content{
-	width: 960;
+	width: 960px;
 	margin: 0px auto;
 }
 #front{
@@ -78,13 +79,14 @@ h1,h2,h3,h4,h5{
 }
 /*------------------------------------HEADER----------------------*/
 .header {
-	width: 100%;
+	width: 1350px;
 	position: relative;
 	/*background: url("..img/backI2.png") repeat 0 0;*/
 	/*z-index: -1;*/
 	/*background-image: url(rafi/img/backI2.png);*/
     /*height: 300px;*/
     /*border:2px solid red;*/
+    height: 231px;
 }
 .header img{
 	position: absolute;
@@ -107,3 +109,18 @@ h1,h2,h3,h4,h5{
 	left: 620px;
 	
 }
+/*--------------------------------SLIDER--------------------------*/
+.sliderBnnr{
+	width: 100%;
+	position: relative;
+
+}
+.arrow-l{
+	position: absolute;
+    right: -25px;
+    top: 169px;
+}
+.arrow-r{
+	position: absolute;
+    left: -25px;
+    top: 169px;}
