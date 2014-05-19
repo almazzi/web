@@ -124,3 +124,40 @@ h1,h2,h3,h4,h5{
 	position: absolute;
     left: -25px;
     top: 169px;}
+/*--------------------------------BODY-CONTENT-----------------------*/
+.justTexties{
+	font-size: 13px;
+	font-family: Arial;
+	color: white;
+	float: left;
+	width: 250px;
+	padding: 10px 35px;
+	border-right: 1px solid #515151;
+	border-sizing:border-box;
+}
+.justTexties p {
+	color: #515151;
+}
+
+.contacts{
+	width: 250px;
+	padding:10px 35px;
+	/*box-sizing:border-box;*/
+	float: left;
+	box-sizing:border-box;
+
+
+}
+.contacts h3{
+	color: #f23201;
+}
+.content li{
+	list-style: none;
+
+}
+.content li a{
+	text-decoration: none;
+}
+.content img{
+	margin-top: 2px;
+}
